@@ -364,6 +364,10 @@
     color: var(--gray-dark);
     line-height: 1.7;
   }
+
+  .page-context .uniq {
+    font-size: 10px;
+  }
 }
 
 /* medias */
@@ -437,7 +441,7 @@
 
   main {
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 400px;
     gap: 80px;
   }
 
@@ -461,9 +465,15 @@
   }
 }
 
+@media (width <= 488px) {
+  main {
+    margin-top: 450px;
+  }
+}
+
 @media (width <= 420px) {
   main {
-    margin-top: 90%;
+    margin-top: 470px;
   }
 
   .bg-1 {
@@ -479,7 +489,6 @@
 
   main {
     width: 100%;
-    margin-top: 95%;
   }
   
   .phone-container {
@@ -496,19 +505,6 @@
   }
 }
 
-}
-
-
-.attribution { 
-      position: absolute;
-      bottom: 0;
-      font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-@media (width <= 644px) {
-  .attribution {
-    bottom: -50%;
-  }
 }
 
 
